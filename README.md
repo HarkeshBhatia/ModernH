@@ -3,20 +3,32 @@
 ![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 ![lua](https://img.shields.io/badge/script-Lua-green)
 ![status](https://img.shields.io/badge/status-early%20stage-yellow)
+![version](https://img.shields.io/badge/version-1.0-orange)
 
-A clean, cinematic On-Screen Controller for [mpv](https://mpv.io/) with animated overlay menus, 
-seekbar thumbnails, chapter & playlist navigation, and smart episode title parsing.
+A clean, cinematic On-Screen Controller (OSC) for [mpv](https://mpv.io/) with animated overlay menus, 
+seekbar thumbnails, chapter and playlist navigation, and smart episode title parsing.
 
 > **Based on [ModernX](https://github.com/cyl0/ModernX) by cyl0**, extended with overlay menus, chapter navigation, animated UI, and smart filename parsing.
 
----
-
 ## 📸 Preview
 
-> *![ModernH Preview](assets/preview.gif)*  
-> 
+<p align="center">
+  <img src="assets/preview.gif" alt="ModernH Preview" width="900"/>
+</p>
 
----
+*Smooth animated overlay menus with seekbar thumbnails*
+
+## 🖼 Screenshots
+
+<p align="center">
+  <img src="assets/preview-audio-tracks.png" width="45%">
+  <img src="assets/preview-subtitles.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="assets/preview-playlist.png" width="45%">
+  <img src="assets/preview-chapters.png" width="45%">
+</p>
 
 ## ❓ Why ModernH?
 
@@ -49,7 +61,7 @@ If you want a more polished and unified UI than stock ModernX, ModernH is design
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 - **Netflix-style bottom bar** — sleek gradient background, smooth fade in/out
 - **Unified Menu Design** — all menus follow the same visual style, consistent spacing, typography, and layout
@@ -251,6 +263,8 @@ Defined in `input.conf`. Edit this file to remap or add any bindings.
 | Double click | Toggle fullscreen |
 | `←` / `→` arrow | Seek ±5 seconds |
 | `↑` / `↓` arrow | Volume ±5 |
+| `Enter` inside menu | Select item    |
+| `Esc` inside menu   | Close menu     |
 | Scroll wheel | Volume ±1 |
 | **Seekbar** | |
 | Left-click | Seek to position (exact) |
@@ -371,7 +385,7 @@ See [LICENSE](LICENSE) for details.
 
 ## 💖 Support
 
-If you enjoy ModernH and want to support its development, you can do so here:
+If you find ModernH useful and want to support its development, you can do so here:
 
 [PayPal](https://www.paypal.me/HarkeshBhatia)
 
@@ -387,4 +401,4 @@ This is a personal refinement of ModernX, focused on:
 - better usability
 - consistent design
 
-Expect occasional updates and improvements.
+Expect ongoing updates and improvements.
