@@ -385,9 +385,9 @@ See [LICENSE](LICENSE) for details.
 
 ## 💖 Support
 
-If you find ModernH useful and want to support its development, you can do so here:
+If you find ModernH useful, consider supporting its development:
 
-[PayPal](https://www.paypal.me/HarkeshBhatia)
+- ☕ Ko-fi: https://ko-fi.com/harkeshbhatia
 
 No pressure — just using and sharing the project is already appreciated.
 
